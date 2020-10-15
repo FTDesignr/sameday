@@ -1,0 +1,387 @@
+body {
+  background-color:#dedede;
+}
+
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.topnav {
+  position: fixed;
+  width: 100%;
+  background-color: #222831;
+  overflow: hidden;
+  z-index: 100;
+}
+
+
+.topnav a {
+  float: right;
+  color: #eeeeee;
+  padding-left: 200px;
+  text-align: center;
+  padding: 20px 20px;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  color: #eeeeee;
+}
+
+.topnav a.active {
+  color: #00adb5;
+  background-color:;
+}
+
+
+.foto {
+  width: 100%;
+  max-height: 500px;
+}
+
+.TNW {
+  font-family: 'bebas neue', cursive;
+  font-size: 3rem;
+  color: white;
+  position: absolute;
+    transform: translate(-50%, -50%);
+  left: 50%;
+  top: 40%
+}
+
+.Ramon {
+  font-family: 'Bebas Neue', cursive;
+  font-size: 4rem;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #eeeeee;
+}
+
+.Fotoabout {
+  padding-top: 200px;
+  padding-left: 150px;
+}
+
+.abouttekst {
+  margin-right: 200px;
+}
+
+.pilsfoto {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+  float: left;
+  margin-right: 30px;
+}
+
+.Fotohome {
+  position: absolute;
+  margin-top: 200px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.pilsfotohome {
+  position: absolute;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  float: top;
+  left: 50%;
+  top: 100px;
+  transform: translate(-50%, -50%);
+}
+
+.introtekst{
+  margin-top: 150px;
+  padding-top: 50px;
+}
+
+.hallo {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.ditismijnblog {
+  text-align: center;
+}
+
+.rk {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mid-container {
+  margin-top: 400px;
+}
+
+hr {
+  width: 10%;
+  border-style: dotted none none none;
+  border-width: 10px;
+  border-color: grey;
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+h3 {
+  color:#00adb5;
+}
+.hometekst {
+  position: absolute;
+  margin-top: 9%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  text-align: center;
+  line-height: 2;
+}
+
+.hometeksttekst {
+  margin: 500px;
+  text-align: center;
+  line-height: 2;
+}
+
+.welkom {
+  text-align: center;
+}
+
+h3. {
+  margin-bottom: 2rem;
+}
+
+.wiebenik{
+  font-family: 'bebas neue', cursive;
+  font-size: 3rem;
+  color: ;
+}
+
+.Programmeur {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.bottom-container0{
+  position: absolute;
+  top: 1000px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #00adb5;
+  padding: 120px;
+}
+
+.bottom-container {
+  position: absolute;
+  top: 1500px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #00adb5;
+  padding: 120px;
+}
+
+.bottom-container1 {
+  position: absolute;
+  top: 2800px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #00adb5;
+  padding: 120px;
+}
+
+.Case {
+  top: 30%;
+  margin: 200px 0;
+  padding: 0.5%;
+  background-color: white;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.Case img{
+  width: 50%;
+  height: 500px;
+}
+
+.Case img: hover {
+    width:100%;
+    height:100%;
+    position:absolute;
+    background-color:#000;
+    opacity:0.5;
+    border-radius:30px;
+}
+
+.container{
+  width: 1000px;
+  margin: 0 auto 0;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container .box{
+  position: relative;
+  top: 150px;
+  width: 300px;
+  height: 300px;
+  background: blue;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+}
+.container .box{
+  position: relative;
+  width: 300px;
+  height: 300px;
+  background: black;
+  margin: 10px;
+  box-sizing: border-box;
+  display: inline-block;
+
+}
+.container .box .imgbox{
+  position: relative;
+  overflow: hidden;
+}
+.container .box .imgbox img{
+  position: relative;
+  max-width: 100%;
+  transition: transform 2s;
+  opacity: 1;
+}
+.container .box:hover .imgbox img{
+  transform: scale(1.2);
+  opacity: 0.3;
+}
+
+.container .box .imgbox .content {
+  margin-left: 15px;
+  position: absolute;
+  color: white;
+  bottom: 15px;;
+  transform: scaleY(0);
+}
+
+.container .box .imgbox .content h3{
+    font-family: 'bebas neue', cursive;
+}
+.container .box .imgbox .content p{
+  line-height: 0.5rem;
+}
+.container .box:hover .imgbox .content {
+  transform: scaleY(1);
+}
+
+.containerblog {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 1500px;
+  height: 2800px;
+  width: 60%;
+  padding: 80px;
+  background-color: white;
+}
+.containerblog img{
+  margin: 50px;
+  max-width: 100%;
+}
+
+.containerblog h2{
+  margin-bottom: 20px;
+}
+
+.containerblog2 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 1000px;
+  height: 1800px;
+  width: 60%;
+  padding: 80px;
+  background-color: white;
+}
+.containerblog2 img{
+  margin: 50px;
+  max-width: 100%;
+}
+
+.containerblog2 h2{
+  margin-bottom: 20px;
+}
+
+.bottom-container2 {
+  position: absolute;
+  top: 1800px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #00adb5;
+  padding: 120px;
+}
+
+.containerblog3 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 750px;
+  height: 1300px;
+  width: 60%;
+  padding: 80px;
+  background-color: white;
+}
+.containerblog3 img{
+  margin: 50px;
+  max-width: 100%;
+}
+
+.containerblog3 h2{
+  margin-bottom: 20px;
+}
+
+.bottom-container3 {
+  position: absolute;
+  top: 1300px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #00adb5;
+  padding: 120px;
+}
+
+.containerblog4 {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 1050px;
+  height: 1900px;
+  width: 60%;
+  padding: 80px;
+  background-color: white;
+}
+.containerblog4 img{
+  margin: 50px;
+  max-width: 100%;
+}
+
+.containerblog4 h2{
+  margin-bottom: 20px;
+}
+
+.bottom-container4 {
+  position: absolute;
+  top: 1900px;
+  width: 100%;
+  overflow: hidden;
+  background-color: #00adb5;
+  padding: 120px;
+}
